@@ -22,6 +22,8 @@ router.get('/', (req, res) => {
     });
 });
 
+
+
 router.get('/:id', (req, res) => {
   // find one category by its `id` value
   Category.findOne({
